@@ -35,7 +35,7 @@ for transaction in transaction1:
     order_total1 += transaction.get_cost()
 
 if customer.get_member_status():
-    discount1 = order_total1*.2
+    discount1 = order_total1 * .2
 else:
     discount1 = 0
 
